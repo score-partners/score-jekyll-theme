@@ -248,11 +248,16 @@ form {
   padding: 20px;
 }
 
-#footer, #footer-logos {
+#footer, #footer-logos, #footer-banner {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+#footer-banner {
+  background: #FFCC01;
+  color: #0F79D0;
 }
 
 #footer img {
